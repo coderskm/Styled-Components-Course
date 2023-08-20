@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
+import ComplexTitle from "./components/ComplexTitle";
+import { AlternativeTitle } from "./components/AlternativeTitle";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: '2rem'}}>
+      <ComplexTitle title="more complex title" />
+      <AlternativeTitle title="alternative title"/>
+      <div>
+      </div>
     </div>
+
   );
 }
 
