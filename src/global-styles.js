@@ -1,4 +1,7 @@
-:root{
+import {createGlobalStyle} from 'styled-components';
+
+const GlobalStyles = createGlobalStyle`
+    :root{
 --primary:green;
 --white:#fff;
 }
@@ -40,3 +43,6 @@ body {
   color: red;
 }
 
+`;
+
+export default GlobalStyles;
